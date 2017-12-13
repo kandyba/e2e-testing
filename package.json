@@ -1,0 +1,17 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "education of e2e",
+  "main": "protractor.conf.js",
+  "scripts": {
+    "test": "protractor",
+    "pretest": "webdriver-manager update"
+  },
+  "author": "Sergii",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^2.8.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor": "^5.1.2"
+  }
+}
